@@ -1,4 +1,5 @@
-.App {
+@import 'colors.css';
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
 }
