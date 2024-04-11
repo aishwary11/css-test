@@ -44,7 +44,7 @@ body
   color: var(--primary-text);
 }
 
-@media screen and (425px <=width)
+@media screen and (426px >=width >=320px)
 {
   body
   {
