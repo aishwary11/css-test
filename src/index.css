@@ -1,3 +1,4 @@
+@import 'colors.css';
 /* :root {
   color-scheme: light dark;
   --text-color: #000;
@@ -27,3 +28,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 } */
+
+button
+{
+  padding: 10px;
+  border: none;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+}

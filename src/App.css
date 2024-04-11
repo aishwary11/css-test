@@ -38,7 +38,24 @@
   }
 } */
 
-body {
+body
+{
   background-color: var(--primary-bg);
   color: var(--primary-text);
+}
+
+@media screen and (425px <=width)
+{
+  body
+  {
+    background-color: red;
+  }
+}
+
+@media screen and (768px >=width >=426px)
+{
+  body
+  {
+    background-color: pink;
+  }
 }
